@@ -10,37 +10,58 @@
 }
 
 header{
-	grid-area:header;
+	grid-area:header;'
+
+	
 	
 }
 
 main{
 	grid-area:main;
+	
+	
 
 } 
 
 footer{
 	grid-area:footer;
-	
+
 }
 
 nav{
 	grid-area:nav;
+	background-color: white;
+	text-align: Center;
+	
+	
+	
 
 }	
 
 h1{
-	background-color Red;
-	font-size: 200%; 
-	text-align: Center; 
-	border: 22px Indigo;
+	grid-area:h1;
+	background-color: Red;
+	font-size: 200%;
+	text-align: Center;
+	
 
-		
+
 }
 
 
 p{
+	grid-area:p;
+	text-align: Center;
+	background-color: yellow;
+	
+
+
 	                                                           
  
 
 }
+
+
+h2{
+	grid-area:p1;
+	text-align: center;
