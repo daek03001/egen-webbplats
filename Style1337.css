@@ -28,7 +28,7 @@ footer{
 
 }
 
-nav{
+nav{   <!-- här ser du min style på nav --> 
 	grid-area:nav;
 	background-color: white;
 	text-align: Center;
@@ -38,7 +38,7 @@ nav{
 
 }	
 
-h1{
+h1{   <!-- Här ser du min style på h1 på startsidan --> 
 	grid-area:h1;
 	background-color: Red;
 	font-size: 200%;
@@ -63,5 +63,49 @@ p{
 
 
 h2{
-	grid-area:p1;
-	text-align: center;
+	grid-area:h2;
+	background-color: salmon;
+	font-size: 200%;
+	text-align: Center;
+		
+}
+	
+
+	
+	
+table{              <!-- här ser du blandannat outline, background color, font size, text allign, border. Alla dessa användes i tabellen --> 
+	border-collapse: collapse;
+	background-color: Salmon;
+	outline: 2px dashed blue;
+}
+
+th{                 
+   background-color: SeaGreen;
+	font-size: 125%; 
+	text-align: Center; 
+	border: 3px solid black; 
+
+}
+
+	
+
+td{             
+	border: 1px solid black; 
+	font-size: 130%;
+	text-align: Center;
+}
+
+
+  
+  
+  table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
