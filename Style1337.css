@@ -82,7 +82,6 @@ table{              <!-- här ser du blandannat outline, background color, font 
 }
 
 th{                 
-   background-color: SeaGreen;
 	font-size: 125%; 
 	text-align: Center; 
 	border: 3px solid black; 
@@ -114,7 +113,7 @@ th, td {
 
 <!-- Här ser du stylen för Zebra Stripe Tabell --> 
 
-.blå table {
+.blå {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
@@ -127,12 +126,11 @@ th, td {
 }
 
 
-
-
-class.blå tr:nth-child(even) {
+.blå tr{
+	background-color:seagreen;
+}
+.blå tr:nth-child(even) {
   background-color: indigo;
   
   
   }
-
-
