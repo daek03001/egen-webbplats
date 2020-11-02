@@ -71,9 +71,11 @@ h2{
 	text-align: Center;
 		
 }
-	
 
-	
+body{
+     background-color: forestgreen;	
+
+}	
 	
 table{              <!-- här ser du blandannat outline, background color, font size, text allign, border. Alla dessa användes i tabellen --> 
 	border-collapse: collapse;
@@ -134,3 +136,20 @@ th, td {
   
   
   }
+  
+.htag {
+	 background-color:Seagreen;
+}
+
+
+.intressen {
+            background:color: blue;
+
+}	
+
+
+.Lära-mig-mer-om {  
+	 background:color: red;
+	
+	
+}
