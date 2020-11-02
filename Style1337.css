@@ -111,3 +111,28 @@ th, td {
   text-align: left;
   padding: 16px;
 }
+
+<!-- Här ser du stylen för Zebra Stripe Tabell --> 
+
+.blå table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+
+
+
+class.blå tr:nth-child(even) {
+  background-color: indigo;
+  
+  
+  }
+
+
